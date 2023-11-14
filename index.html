@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Flask | Python | Data Analysis | Open Source</title>
 
-    <link href="https://unpkg.com/boxicon@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    
+    <!--End-->
+
+    <!-- Box icon    -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <!--End-->
 
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
 <header class="header">    
-    <a href="#" class="logo" > Weekly theme: Be Intentional</a>
-
+    <a href="#" class="logo" > This Week's Inspo: A thankful heart!</a>
     <i class='bx bx-menu' id="menu-icon"></i>
 
     <nav class="navbar">
@@ -21,7 +27,7 @@
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#portfolio">Portfolio</a>
-        <a href="#contacts">Contact Us</a>
+        <a href="#contact">Contact Me</a>
     </nav>
 </header>
 
@@ -29,12 +35,13 @@
 <section class="home" id="home">
     <div class="home-content">
         <h2>Hi,</h3>
-        <h1>I'm Ama Agyemang-Duah aka AA</h1>
+        <h1>I'm Ama Agyemang-Duah a.k.a AA</h1>
         <h3><span>Tech Enthusiast . Google Scholar </span></h3>
         <p>Thank you for visiting my website. Feel free to explore it. 
         I just started my Open Source journey and would post some exciting projects here.
         Reach out to connect. I'm open to collaborate on projects and gigs.
-        </p>        
+
+        </p><br/>        
 
         <a href="docs/Ama Agyemang-Duah_Tech Support.pdf" class="btn"> Download CV </a>
     </div>
@@ -45,11 +52,11 @@
 
 <section class="about" id="about">
     <div class="about-img">
-        <img src="images/amaya.png" alt=""/>
+        <img src="images/ama_bg.png" alt=""/>
     </div>
     <div class="about-content">
         <h2 class="heading">About <span> Me</span></h2>
-        <h3>Tech Enthusiast, Child Advocate</h3>
+        <h3>Tech Enthusiast, Child Development Advocate</h3>
         <p>
             I'm a tech enthusiast with a background in data analysis, project coordination, and software development.
             My experience extends across various industries, including technology, oil and gas, and manufacturing.
@@ -62,15 +69,16 @@
 
 <!---service-->
 <section class="services" id="services">
-    <h2 class="heading">Our <span>Services</span></h2>
-
+    <h2 class="heading">My <span>Expertise</span></h2>
+    <br/>
     <div class="services-container">
         <div class="services-box">
             <img  src="" alt=""/>        
-            <h2>Web Development</h2>
+            <h2>Web Applications</h2>
             <p>
-                Web development applications with various programming languages and tools is one of my passions.
+               Web development applications with various programming languages and tools is one of my passions.
             </p>
+            <br/>
             <a href="#" class="btn"> View Web Dev's </a>
         </div>
 
@@ -78,42 +86,93 @@
             <img  src="" alt=""/>               
             <h2>Software Development</h2>
             <p>
-                For any software development needs,  you can reach out to me. 
-                I have specialised experience in software development and project management.
-            </p>
+               Specialised experience in software development and project management. 
+            </p><br/>
             <a href="#" class="btn"> View Software </a>
         </div>
 
         <div class="services-box">
             <img  src="" alt=""/>               
-            <h2>Consulting & Open Source</h2>
+            <h2>Consulting </h2>
             <p>
                Consulting for corporate institutions towards the purchase of computing equipment and infrastructure.
             </p>
+            <br/>
             <a href="#" class="btn"> Read more </a>
         </div>
     </div>
 </section>
 
-<section class="portfolioClass" id="portfolio">   
-    <div class="portfolio-content">
-        <h2 class="heading"> My<span> Portfolio</span></h2>
-        <h3>Tech Enthusiast, Child Advocate</h3>
-        <p>
-            Portfolio    
-        </p>
+<section class="portfolio" id="portfolio">   
+    <h2 class="heading"> My<span> Portfolio</span></h2>    
+
+    <div class="portfolio-container">        
+        <div class="portfolio-box">
+            <img src="images/1.png" alt="" />
+            <div class="portfolio-layer">
+                <h3>Website for JOboboam Construction Ltd</h3>    
+                <p>Developed website for the construction. </p>
+                
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="images/2.png" alt="" />
+            <div class="portfolio-layer">
+                <h3>Website for Orbit Industries Ltd</h3>    
+                <p>Developed website for the manufacturing company. </p>
+                
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="images/3.png" alt="" />
+            <div class="portfolio-layer">
+                <h3>Design of Kings Own Ltd Log</h3>    
+                <p>Gathered information on the company culture and values to design the logo. </p>
+                
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="images/4.png" alt="" />
+            <div class="portfolio-layer">
+                <h3>Website for Kings Own Ltd</h3>    
+                <p>Lorem ipsum </p>
+                
+            </div>
+        </div>
     </div>
 </section>
 
-<section class="contacts" id="contacts">
-    <div class="contacts-content">
-        <h2 class="heading"><span>Contacts </span>Us</h2>
-        <h3>Send me a message, here</h3>
-        <p>
-           Contacts
-        </p>
-    </div>
+
+<!-- Contact Section-->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me </span></h2> <br/><br/>
+    
+    <form action="#">        
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">                    
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Subject">
+                
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">                
+    </form>
 </section>
+<!-- Contact Section Ends here-->
+
+<footer class="footer">
+    <div class="footer-text">
+        <p> Copyright &copy; 2023 by Ama Agyemang-Duah | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>        
+    </div>
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
 
 <!--Custom Javascript-->
 <script src="js/script.js"></script>
